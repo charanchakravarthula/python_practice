@@ -39,6 +39,10 @@ print(new_str)
 
 print(new_str.find("ba"))
 
+# string formatting
+name="charan"
+print(f'i am {name}')
+
 
 
 
