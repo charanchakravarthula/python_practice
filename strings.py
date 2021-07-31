@@ -40,8 +40,26 @@ print(new_str)
 print(new_str.find("ba"))
 
 # string formatting
+
 name="charan"
 print(f'i am {name}')
+
+l=['a','b','c']
+
+# join function
+
+joiner='.'.join(l)
+print(joiner)
+
+str_var=str_var+" "+'d s'
+
+# split function
+
+splitter=str_var.split()
+print(splitter)
+
+
+
 
 
 
