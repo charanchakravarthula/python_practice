@@ -58,6 +58,17 @@ str_var=str_var+" "+'d s'
 splitter=str_var.split()
 print(splitter)
 
+# traversing in strings
+
+for i in str_var:
+    print(i)
+
+for i in range(0,len(str_var)):
+    print(str_var[i])
+
+
+
+
 
 
 
