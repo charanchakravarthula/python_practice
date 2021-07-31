@@ -70,5 +70,18 @@ list_var2.clear()
 del list_var[0:3]
 print(list_var)
 
+# nested list
+
+list_var.append([2,3,4,5,6,7,9])
+print(list_var)
+
+# traversing over a list
+
+for i in list_var:
+    print(i)
+
+for i in range(0,len(list_var)):
+    print(list_var[i])
+
 
 
