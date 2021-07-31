@@ -31,3 +31,8 @@ print(set_var.issuperset(set_var2))
 
 #union
 print(set_var2.union(set_var))
+
+# traversing in sets
+
+for i in set_var:
+    print(i)
