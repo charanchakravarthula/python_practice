@@ -14,3 +14,13 @@ del tup_var
 index_var=con_var.index(4)
 
 print(index_var)
+
+# tuple traversal
+for i in con_var:
+    print(i)
+
+for i in range(0,len(con_var)):
+    print(con_var[i])
+
+
+
